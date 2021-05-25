@@ -1,0 +1,75 @@
+body {
+    background-color: #FFF4F3;
+    margin: 0;
+    padding: 0
+  }
+  
+  .container {
+    background-color: #423B3B;
+    border-radius: 20px;
+    padding: 0;
+    margin: auto;
+    margin-top: 65px;
+    height: 450px;
+    max-width: 300px;
+    box-shadow: 0 3px 10px 0 rgba(198, 93, 116, 0.6);
+    font-family: 'Itim', cursive;
+  }
+  
+  .display {
+    background-color: #fafafd;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    min-height: 90px;
+    max-height: 100px;
+    text-align: right;
+    font-weight: 300;
+    color: black;
+    padding: 15px 20px;
+    overflow: hidden;
+  }
+  
+  .display:hover {
+    cursor: pointer;
+  }
+  
+  .prevValue {
+    color: #666666;
+    font-size: 1.1rem;
+  }
+  
+  .currentValue {
+    color: black;
+    font-size: 1.5rem;
+  }
+  
+  .symbols {
+    margin: 15px;
+  }
+  
+  .row-block {
+    margin: 5px;
+  }
+  
+  .col-block {
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    font-size: 1.25rem;
+    font-weight: bold;
+    background-color: #08eb4c;
+    transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;
+  }
+  
+  .col-block:hover {
+    background-color: #aaff99;
+    box-shadow: 0 8px 4px 0 rgba(0, 0, 0, 0.3);
+    border-color: #ddd;
+    cursor: pointer;
+  }
+  
+  .col-block:active {
+    color: black;
+  }
