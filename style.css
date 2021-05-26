@@ -5,7 +5,7 @@ body {
   }
   
   .container {
-    background-color: #423B3B;
+    background-color: #262729;
     border-radius: 20px;
     padding: 0;
     margin: auto;
@@ -14,10 +14,11 @@ body {
     max-width: 300px;
     box-shadow: 0 3px 10px 0 rgba(198, 93, 116, 0.6);
     font-family: 'Itim', cursive;
+    border: 5px solid black
   }
   
   .display {
-    background-color: #fafafd;
+    background-color: #ececf8;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     min-height: 90px;
@@ -59,12 +60,12 @@ body {
     color: white;
     font-size: 1.25rem;
     font-weight: bold;
-    background-color: #08eb4c;
+    background-color: #b4b0bb;
     transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;
   }
   
   .col-block:hover {
-    background-color: #aaff99;
+    background-color: #bed3f3;
     box-shadow: 0 8px 4px 0 rgba(0, 0, 0, 0.3);
     border-color: #ddd;
     cursor: pointer;
