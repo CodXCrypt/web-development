@@ -12,12 +12,16 @@ body {
     margin-top: 65px;
     height: 450px;
     max-width: 300px;
-    box-shadow: 0 3px 10px 0 rgba(198, 93, 116, 0.6);
+    /* box-shadow: 0 3px 10px 0 rgba(198, 93, 116, 0.6); */
+    /* box-shadow: 6px 5px #caf90f8a; */
+    
+    /* Adding shadow effect to the container */
+    box-shadow: 8px 6px 3px 2px rgb(127, 243, 19);
     font-family: 'Itim', cursive;
   }
   
   .display {
-    background-color: #fafafd;
+    background-color: #f1efefdc;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     min-height: 90px;
