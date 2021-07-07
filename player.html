@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Music Player</title>
+    <link rel="stylesheet" href="player.css">
+</head>
+<body>
+    <img src="./assets/images/maxresdefault2.jpg" id="background" />
+    <audio src="./assets/music/Titliaan.mp3" id="song"></audio>
+
+    <div class="container">  
+        <div class="box"></div>      
+        <img src="./assets/images/maxresdefault2.jpg" id="thumbnail" />
+        
+        <img src="./assets/icons/play.png" onclick="playPause()" id="play-pause" />
+        <img src="./assets/icons/forward.png" onclick="nextSong()" id="next-song" />
+        <img src="./assets/icons/backward.png" onclick="previousSong()" id="previous-song" />
+
+        <div class="song-artist">Afsana khan</div>
+        <div class="song-title">Titliaan</div>
+
+        <!-- Input element for progress bar - min=0 starting value of every song - max length will change per song so leave empty -->
+        
+        <input 
+            type="range" 
+            id="progress-bar" 
+            min="0" 
+            max="" 
+            value="0" 
+            onchange="changeProgressBar()"
+        />
+
+        <div class="currentTime"></div>
+        <div class="durationTime"></div>
+    </div>
+
+    <script src="player.js"></script>
+</body>
+</html>
